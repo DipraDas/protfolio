@@ -1,38 +1,263 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Inconsolata', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skills-bar-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.skills-bar-container li {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.progressbar-title {
+  color: #fff;
+  animation-fill-mode: both; 
+}
+
+.progressbar-title h3 {
+  display: inline-block;
+}
+
+.percent {
+  position: absolute;
+  right: 5px;
+}
+
+.bar-container {
+  background: #555;
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  display: block;
+  border-radius: 5px;
+}
+
+.progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  border-radius: 5px;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.progressred {
+  /* background-color: linear-gradient(#5EEAD3, #fff); */
+  background-color: #bcf8ff;
+  animation-name: progress-html;
+}
+
+.progresscss {
+  background-color: #bcf8ff;
+  animation-name: progress-css;
+}
+.progressjavascript {
+  background-color: #bcf8ff;
+  animation-name: progress-javascript;
+}
+
+.progressbootstrap {
+  background-color: #bcf8ff;
+  animation-name: progress-javascript;
+}
+/* #9b59b6 */
+.progresstailwind {
+  background-color: #bcf8ff;
+  animation-name: progress-tailwind;
+}
+
+.progressreact {
+  background-color: #bcf8ff;
+  animation-name: progress-react; 
+}
+
+.progressnext {
+  background-color: #bcf8ff;
+  animation-name: progress-next; 
+}
+
+.progressnative {
+  background-color: #bcf8ff;
+  animation-name: progress-native; 
+}
+
+.progressredux {
+  background-color: #bcf8ff;
+  animation-name: progress-redux; 
+}
+
+.progressnode {
+  background-color: #bcf8ff;
+  animation-name: progress-node; 
+}
+
+.progressmongodb {
+  background-color: #bcf8ff;
+  animation-name: progress-mongodb; 
+}
+
+.progressphotoshop {
+  background-color: #bcffcc;
+  animation-name: progress-photoshop; 
+}
+
+.progressillustrator {
+  background-color: #bcffcc;
+  animation-name: progress-illustrator ; 
+}
+
+
+.progresspremierpro {
+  background-color: #bcffcc;
+  animation-name: progress-premierpro; 
+}
+
+.progressfilmora {
+  background-color: #bcffcc;
+  animation-name: progress-filmora; 
+}
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes progress-css {
+  0% {
+    width: 0%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    width: 75%;
   }
 }
+
+@keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes progress-tailwind {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes progress-next {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-native {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-redux {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes progress-node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-mongodb {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes progress-photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-illustrator{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-premierpro {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progress-filmora {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
