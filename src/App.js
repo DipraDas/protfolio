@@ -1,13 +1,20 @@
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+
 import './App.css';
+
 import MainComponent from './Component/MainComponent';
 import AnimatedCursor from 'react-animated-cursor';
-import ProgressBar from "react-scroll-progress-bar";
+import Cloudone from './Component/Cloudone';
+import Dyfuso from './Component/Dyfuso';
 
 function App() {
   return (
-    <div className='bg-gradient-to-r from-[#10172A] to-[#1a284d]'>
-      <ProgressBar bgcolor="#5EEAD3" />
-      <MainComponent />
+    <Router>
+      <Routes>
+        <Route path="/cloudone" element={<Cloudone />} />
+        <Route path="/dyfuso" element={<Dyfuso />} />
+        <Route path="/" element={<MainComponent />} />
+      </Routes>
       <AnimatedCursor
         innerSize={8}
         outerSize={8}
@@ -29,7 +36,7 @@ function App() {
           '.link'
         ]}
       />
-    </div>
+    </Router>
   );
 }
 

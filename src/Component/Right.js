@@ -4,10 +4,15 @@ import 'preact-skillbar/dist/index.css';
 import '../App.css';
 import guitar from '../images/guitar.png';
 import art from '../images/art.png';
+import { Link } from 'react-router-dom';
 
 const Right = ({ section }) => {
+
+
+
     useEffect(() => {
-        const delay = 400;
+
+        const delay = 1;
 
         setTimeout(function () {
             document.getElementById("html-pourcent").innerHTML = "80%";
@@ -106,16 +111,17 @@ const Right = ({ section }) => {
         <div className='py-20 ml-[100%] w-full'>
             <section id='about-section'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>ABOUT</h1>
-                <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.</p>
-                <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.</p>
-                <p className='ml-4 text-gray-300 font-medium mb-28'>My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.</p>
+                <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2020, it was the time of Corona. Everything was stop and the life also stucked. At that  time I though, how I my this leasure time effective. From then I explored diffent section of computer engineering and software development make me fun to do. The journey started . . . </p>
+                <p className='ml-4 text-gray-300 mb-5 font-medium'>Now I am working in Cloudone, a reknowned ISP(Internet Service Provider) of Chattogram. Here we have our own CRM (Customer Relationship Management) system. Everyday we try to make our system more user friendly. Our team always concern about any unusual activity or bug in our system. We also have Cloudone app. Not only that, we also have Automart (an ecommerce site). Now our team are dedicatedly working on a flight booking system. </p>
+                <p className='ml-4 text-gray-300 font-medium mb-28'>I always try to explore new technologies or new tools. It may programming or graphical or trading! I love to play guitar in my leasure time.</p>
             </section>
             <section id='experience-section' className='mb-28'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>EXPERIENCE</h1>
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
-                    <div className='grid grid-cols-12 px-4 py-3'>
+                    <Link to="/cloudone" className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>ARP 2023 ~ PRESENT</h1>
+                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider'>Show Details</h1>
                         </div>
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Junior Software Engineer</h1>
@@ -134,12 +140,13 @@ const Right = ({ section }) => {
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Debugging</div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
-                    <div className='grid grid-cols-12 px-4 py-3 mt-10'>
+                    <Link to="/dyfuso" className='grid grid-cols-12 px-4 py-3 mt-10'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>DEC 2022 ~ FEB 2023</h1>
+                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider'>Show Details</h1>
                         </div>
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Frontend Web Developer</h1>
@@ -152,7 +159,7 @@ const Right = ({ section }) => {
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Api Integration</div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </section>
             <section id='project-section' className='mb-28'>
