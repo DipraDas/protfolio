@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { FaGitlab } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const LeftSide = ({ selectingSection, section }) => {
     return (
@@ -36,10 +38,15 @@ const LeftSide = ({ selectingSection, section }) => {
                     </div>
                 </div>
                 <div className='flex gap-6'>
-                    <FaGithub className='text-gray-400 text-2xl hover:text-white' />
-                    <BsInstagram className='text-gray-400 text-2xl hover:text-white' />
-                    <BsTwitter className='text-gray-400 text-2xl hover:text-white' />
-                    <BsLinkedin className='text-gray-400 text-2xl hover:text-white' />
+                    <Link to='https://github.com/DipraDas'>
+                        <FaGithub className='text-gray-400 text-2xl hover:text-white' />
+                    </Link>
+                    <Link to='https://gitlab.com/Dipra5940'>
+                        <FaGitlab className='text-gray-400 text-2xl hover:text-white' />
+                    </Link>
+                    <Link to='https://www.linkedin.com/in/dipra-das5940/'>
+                        <BsLinkedin className='text-gray-400 text-2xl hover:text-white' />
+                    </Link>
                 </div>
             </div>
         </div>

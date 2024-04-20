@@ -121,12 +121,12 @@ const Right = ({ section }) => {
                     <Link to="/cloudone" className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>ARP 2023 ~ PRESENT</h1>
-                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider'>Show Details</h1>
+                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider animationFading'>Show Details</h1>
                         </div>
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Junior Software Engineer</h1>
                             <p className='text-gray-400 text-lg mb-2'> ~ Cloudone</p>
-                            <p className='text-gray-300'> Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.</p>
+                            <p className='text-gray-300'>As a Junior Software Engineer at Cloudone, I dive deep into the fascinating realm of mobile app development, focusing on both Android and iOS platforms. Crafting seamless mobile experiences is my passion, but I also lend my skills to building internal CRM software and websites.  I really enjoy working with my team to bring our ideas to life. Click through this section to explore the exciting projects we've been working on!</p>
                             <div className='flex flex-wrap mt-1 pb-2'>
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>ReactJs</div>
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>NextJs</div>
@@ -146,12 +146,12 @@ const Right = ({ section }) => {
                     <Link to="/dyfuso" className='grid grid-cols-12 px-4 py-3 mt-10'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>DEC 2022 ~ FEB 2023</h1>
-                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider'>Show Details</h1>
+                            <h1 className='text-white text-sm font-semibold mt-3 tracking-wider animationFading'>Show Details</h1>
                         </div>
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Frontend Web Developer</h1>
                             <p className='text-gray-400 text-lg mb-2'> ~ Dyfuso (Remote)</p>
-                            <p className='text-gray-300'>Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.</p>
+                            <p className='text-gray-300'>During my internship at Dyfuso, I had the opportunity to dive into Vue.js and put my skills to work by designing the admin panel for the company's website. It was an enriching experience where I learned firsthand about front-end development and user interface design. </p>
                             <div className='flex flex-wrap mt-1 pb-2'>
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>VueJs</div>
                                 <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Quasar</div>
@@ -210,7 +210,7 @@ const Right = ({ section }) => {
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
                             <p className='text-gray-400 text-lg'> ~ East Delta University</p>
                             <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'> Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.</p>
+                            <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
                         </div>
                     </div>
                 </div>
@@ -223,7 +223,7 @@ const Right = ({ section }) => {
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Higher Secondary</h1>
                             <p className='text-gray-400 text-lg'> ~ Hajera Taju Degree College</p>
                             <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'>Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.</p>
+                            <p className='text-gray-300'>During my Higher Secondary education in Chattogram, I engaged with a diverse curriculum that included mathematics and science. This period was pivotal in honing my analytical skills and fostering a passion for learning, setting the stage for my academic journey ahead.</p>
                         </div>
                     </div>
                 </div>
@@ -241,8 +241,53 @@ const Right = ({ section }) => {
                     </div>
                 </div>
             </section>
-            <section id='skill-section'>
-                <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>SKILL</h1>
+            <section id='skill-section' className='mb-28'>
+                <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>EDUCATION</h1>
+                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
+                    <div className='grid grid-cols-12 px-4 py-3'>
+                        <div className='col-span-3'>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>SEP 2018 ~ SEP 2022</h1>
+                        </div>
+                        <div className='col-span-9'>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
+                            <p className='text-gray-400 text-lg'> ~ East Delta University</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
+                    <div className='grid grid-cols-12 px-4 py-3 mt-10'>
+                        <div className='col-span-3'>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>2017 ~ 2018</h1>
+                        </div>
+                        <div className='col-span-9'>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>Higher Secondary</h1>
+                            <p className='text-gray-400 text-lg'> ~ Hajera Taju Degree College</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-300'>During my Higher Secondary education in Chattogram, I engaged with a diverse curriculum that included mathematics and science. This period was pivotal in honing my analytical skills and fostering a passion for learning, setting the stage for my academic journey ahead.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
+                    <div className='grid grid-cols-12 px-4 py-3 mt-10'>
+                        <div className='col-span-3'>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>2016 SESSION</h1>
+                        </div>
+                        <div className='col-span-9'>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'> Secondary</h1>
+                            <p className='text-gray-400 text-lg'> ~ Ctattogram Govt. High School</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-300'>A part of my life where I passed a golden moment. That was nothing just a stressless and joyable time where you can fly like a bird and feel the smell of heaven. If time travel exists, I should dare to try!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section className='mb-28'>
+                <h1 h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8' >SKILL</h1>
                 <div>
                     <div className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
@@ -438,6 +483,22 @@ const Right = ({ section }) => {
                                     </li>
                                 </div>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </section >
+            <section id='education-section' className='mb-28'>
+                <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>CONTACT</h1>
+                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
+                    <div className='grid grid-cols-12 px-4 py-3'>
+                        <div className='col-span-3'>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>Phone</h1>
+                        </div>
+                        <div className='col-span-9'>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
+                            <p className='text-gray-400 text-lg'> ~ East Delta University</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
                         </div>
                     </div>
                 </div>
