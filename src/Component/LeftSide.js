@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const LeftSide = ({ selectingSection, section }) => {
     return (
-        <div className='py-20 h-screen fixed'>
+        <div className='py-20 h-screen md:fixed ml-4 md:ml-0'>
             <div className='flex flex-col justify-between h-full'>
                 <div>
                     <h1 className='text-white text-5xl font-bold'>Dipra Das</h1>

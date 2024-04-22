@@ -108,7 +108,7 @@ const Right = ({ section }) => {
     };
 
     return (
-        <div className='py-20 ml-[100%] w-full'>
+        <div className='py-20 md:ml-[100%] w-full'>
             <section id='about-section'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>ABOUT</h1>
                 <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2020, it was the time of Corona. Everything was stop and the life also stucked. At that  time I though, how I my this leasure time effective. From then I explored diffent section of computer engineering and software development make me fun to do. The journey started . . . </p>
@@ -174,9 +174,9 @@ const Right = ({ section }) => {
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Guitar.BD</h1>
                             <p className='text-gray-400 text-lg mb-2'> ~ Guitar reselling website</p>
                             <div className='flex flex-wrap mt-1 pb-2'>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Live Site</div>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Client)</div>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Server)</div>
+                                <Link to='https://guitar-bd.web.app/'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Live Site</div></Link>
+                                <Link to='https://github.com/DipraDas/Guitar-BD-Client'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Client)</div></Link>
+                                <Link to='https://github.com/DipraDas/Guitar-BD-Server'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Server)</div></Link>
                             </div>
                         </div>
                     </div>
@@ -191,9 +191,9 @@ const Right = ({ section }) => {
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Red Art</h1>
                             <p className='text-gray-400 text-lg mb-2'> ~ Art is the exploration</p>
                             <div className='flex flex-wrap mt-1 pb-2'>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Live Site</div>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Client)</div>
-                                <div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Server)</div>
+                                <Link to='https://red-art-f4093.firebaseapp.com/'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Live Site</div></Link>
+                                <Link to='https://github.com/DipraDas/Red-Art-Client'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Client)</div></Link>
+                                <Link to='https://github.com/DipraDas/Red-Art-Server'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Server)</div></Link>
                             </div>
                         </div>
                     </div>
@@ -493,12 +493,14 @@ const Right = ({ section }) => {
                     <div className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>Phone</h1>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>Email</h1>
                         </div>
                         <div className='col-span-9'>
-                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
+                            {/* <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
                             <p className='text-gray-400 text-lg'> ~ East Delta University</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p> */}
+                            <a href='tel:+8801876704498' className='text-white block'> +880 1876704498</a>
+                            <a href='mailto:dipradas5940@gail.com' className='text-white '> dipradas5940@gmail.com</a>
                         </div>
                     </div>
                 </div>
