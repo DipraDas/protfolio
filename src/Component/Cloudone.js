@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ProgressBar from "react-scroll-progress-bar";
+import xpensy from '../images/Xpensy_Qr.png';
 
 const Cloudone = () => {
     useEffect(() => {
@@ -37,7 +38,8 @@ const Cloudone = () => {
                     </div>
                     <div className='grid grid-cols-12 mt-5'>
                         <div className='col-span-12 md:col-span-3'>
-                            <div className='text-base text-white'>2. Expensy App</div>
+                            <div className='text-base text-white'>2. Xpensy App</div>
+                            <img style={{ width: 170, marginTop: 10 }} src={xpensy} alt='Xpensy App' />
                         </div>
                         <div className='col-span-12 md:col-span-9'>
                             <ul>

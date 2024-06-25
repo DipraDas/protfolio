@@ -14,7 +14,7 @@ const MainComponent = () => {
     return (
         <div className='bg-gradient-to-r from-[#10172A] to-[#1a284d]'>
             <ProgressBar bgcolor="#5EEAD3" />
-            <div className='container mx-auto'>
+            <div className='container mx-auto px-5'>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <LeftSide selectingSection={selectingSection} section={section} />
                     <Right section={section} />

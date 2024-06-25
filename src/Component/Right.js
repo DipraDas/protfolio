@@ -111,7 +111,7 @@ const Right = ({ section }) => {
         <div className='py-20 md:ml-[100%] w-full'>
             <section id='about-section'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>ABOUT</h1>
-                <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2020, it was the time of Corona. Everything was stop and the life also stucked. At that  time I though, how I my this leasure time effective. From then I explored diffent section of computer engineering and software development make me fun to do. The journey started . . . </p>
+                <p className='ml-4 text-gray-300 mb-5 font-medium'>Back in 2020, during the time of Corona, everything came to a halt and life felt stuck. During that period, I thought about how I could make this leisure time effective. Since then, I have explored different areas of computer engineering, and I discovered that software development is fun for me. That’s how my journey began . . .</p>
                 <p className='ml-4 text-gray-300 mb-5 font-medium'>Now I am working in Cloudone, a reknowned ISP(Internet Service Provider) of Chattogram. Here we have our own CRM (Customer Relationship Management) system. Everyday we try to make our system more user friendly. Our team always concern about any unusual activity or bug in our system. We also have Cloudone app. Not only that, we also have Automart (an ecommerce site). Now our team are dedicatedly working on a flight booking system. </p>
                 <p className='ml-4 text-gray-300 font-medium mb-28'>I always try to explore new technologies or new tools. It may programming or graphical or trading! I love to play guitar in my leasure time.</p>
             </section>
@@ -195,48 +195,6 @@ const Right = ({ section }) => {
                                 <Link to='https://github.com/DipraDas/Red-Art-Client'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Client)</div></Link>
                                 <Link to='https://github.com/DipraDas/Red-Art-Server'><div className='bg-[#5eead31a] text-[#5EEAD3] px-3 py-1 inline font-semibold rounded-full mr-2 mt-2 text-sm'>Github (Server)</div></Link>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id='education-section' className='mb-28'>
-                <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>EDUCATION</h1>
-                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
-                    <div className='grid grid-cols-12 px-4 py-3'>
-                        <div className='col-span-3'>
-                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>SEP 2018 ~ SEP 2022</h1>
-                        </div>
-                        <div className='col-span-9'>
-                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
-                            <p className='text-gray-400 text-lg'> ~ East Delta University</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
-                    <div className='grid grid-cols-12 px-4 py-3 mt-10'>
-                        <div className='col-span-3'>
-                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>2017 ~ 2018</h1>
-                        </div>
-                        <div className='col-span-9'>
-                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>Higher Secondary</h1>
-                            <p className='text-gray-400 text-lg'> ~ Hajera Taju Degree College</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'>During my Higher Secondary education in Chattogram, I engaged with a diverse curriculum that included mathematics and science. This period was pivotal in honing my analytical skills and fostering a passion for learning, setting the stage for my academic journey ahead.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
-                    <div className='grid grid-cols-12 px-4 py-3 mt-10'>
-                        <div className='col-span-3'>
-                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>2016 SESSION</h1>
-                        </div>
-                        <div className='col-span-9'>
-                            <h1 className='text-xl font-semibold text-[#5EEAD3]'> Secondary</h1>
-                            <p className='text-gray-400 text-lg'> ~ Ctattogram Govt. High School</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
-                            <p className='text-gray-300'>A part of my life where I passed a golden moment. That was nothing just a stressless and joyable time where you can fly like a bird and feel the smell of heaven. If time travel exists, I should dare to try!</p>
                         </div>
                     </div>
                 </div>
@@ -393,7 +351,7 @@ const Right = ({ section }) => {
                                 <div className='grid grid-cols-2 gap-3'>
                                     <li>
                                         <div className="progressbar-title">
-                                            <h3>Redux</h3>
+                                            <h3>Redux / Redux Toolkit</h3>
                                             <span className="percent" id="redux-pourcent"></span>
                                         </div>
                                         <div className="bar-container">
@@ -419,7 +377,7 @@ const Right = ({ section }) => {
                                 <div className='grid grid-cols-2 gap-3'>
                                     <li>
                                         <div className="progressbar-title">
-                                            <h3>MongoDB</h3>
+                                            <h3>MongoDB / Mongoose</h3>
                                             <span className="percent" id="mongodb-pourcent"></span>
                                         </div>
                                         <div className="bar-container">
@@ -487,7 +445,7 @@ const Right = ({ section }) => {
                     </div>
                 </div>
             </section >
-            <section id='education-section' className='mb-28'>
+            <section id='education-section' className='mb-10'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>CONTACT</h1>
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
                     <div className='grid grid-cols-12 px-4 py-3'>
