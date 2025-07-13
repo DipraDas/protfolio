@@ -120,11 +120,11 @@ const Right = ({ section }) => {
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
                     <Link to="/cloudone" className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
-                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>ARP 2023 ~ PRESENT</h1>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>ARP 2023 ~ JUNE 2025</h1>
                             <h1 className='text-white text-sm font-semibold mt-3 tracking-wider animationFading'>Show Details</h1>
                         </div>
                         <div className='col-span-9'>
-                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>Junior Software Engineer</h1>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>Software Engineer</h1>
                             <p className='text-gray-400 text-lg mb-2'> ~ Cloudone</p>
                             <p className='text-gray-300'>As a Junior Software Engineer at Cloudone, I dive deep into the fascinating realm of mobile app development, focusing on both Android and iOS platforms. Crafting seamless mobile experiences is my passion, but I also lend my skills to building internal CRM software and websites.  I really enjoy working with my team to bring our ideas to life. Click through this section to explore the exciting projects we've been working on!</p>
                             <div className='flex flex-wrap mt-1 pb-2'>
@@ -199,8 +199,21 @@ const Right = ({ section }) => {
                     </div>
                 </div>
             </section>
-            <section id='skill-section' className='mb-28'>
+            <section id='education-section' className='mb-28'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>EDUCATION</h1>
+                <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
+                    <div className='grid grid-cols-12 px-4 py-3'>
+                        <div className='col-span-3'>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>July 2025 ~ Current</h1>
+                        </div>
+                        <div className='col-span-9'>
+                            <h1 className='text-xl font-semibold text-[#5EEAD3]'>Master of Networking - Major Cyber Security</h1>
+                            <p className='text-gray-400 text-lg'> ~ Melbourne Institute of Technology</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Sydney, Australia</p>
+                            <p className='text-gray-300'> At Melbourne Institute of Technology, I’m excited to dive deeper into the field of Networking and Information Technology. This journey is more than just academic—it's a chance to explore cutting-edge technologies, sharpen my problem-solving skills, and collaborate with passionate minds from around the world. I'm eager to learn, adapt, and grow as I navigate this next chapter of my tech journey.</p>
+                        </div>
+                    </div>
+                </div>
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
                     <div className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
@@ -209,7 +222,7 @@ const Right = ({ section }) => {
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
                             <p className='text-gray-400 text-lg'> ~ East Delta University</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram, Bangladesh</p>
                             <p className='text-gray-300'> At East Delta University, I immersed myself in the dynamic world of Computer Science & Engineering. Through rigorous coursework and hands-on projects, I honed my skills in programming languages, algorithm design, database management, and system architecture. Beyond technical proficiency, I learned the importance of collaboration, adaptability, and continuous learning in navigating the ever-evolving field of technology.</p>
                         </div>
                     </div>
@@ -222,7 +235,7 @@ const Right = ({ section }) => {
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'>Higher Secondary</h1>
                             <p className='text-gray-400 text-lg'> ~ Hajera Taju Degree College</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram, Bangladesh</p>
                             <p className='text-gray-300'>During my Higher Secondary education in Chattogram, I engaged with a diverse curriculum that included mathematics and science. This period was pivotal in honing my analytical skills and fostering a passion for learning, setting the stage for my academic journey ahead.</p>
                         </div>
                     </div>
@@ -235,7 +248,7 @@ const Right = ({ section }) => {
                         <div className='col-span-9'>
                             <h1 className='text-xl font-semibold text-[#5EEAD3]'> Secondary</h1>
                             <p className='text-gray-400 text-lg'> ~ Ctattogram Govt. High School</p>
-                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p>
+                            <p className='text-gray-400 text-lg mb-2'> ~ Chattogram, Bangladesh</p>
                             <p className='text-gray-300'>A part of my life where I passed a golden moment. That was nothing just a stressless and joyable time where you can fly like a bird and feel the smell of heaven. If time travel exists, I should dare to try!</p>
                         </div>
                     </div>
@@ -244,7 +257,7 @@ const Right = ({ section }) => {
 
 
 
-            <section className='mb-28'>
+            <section id="skill-section" className='mb-28'>
                 <h1 h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8' >SKILL</h1>
                 <div>
                     <div className='grid grid-cols-12 px-4 py-3'>
@@ -445,20 +458,22 @@ const Right = ({ section }) => {
                     </div>
                 </div>
             </section >
-            <section id='education-section' className='mb-10'>
+            <section id='contact' className='mb-10'>
                 <h1 style={{ letterSpacing: '5px' }} className=' text-white font-bold ms-4 text-sm mb-5 underline underline-offset-8'>CONTACT</h1>
                 <div className='hover:bg-[#ffffff05] hover:rounded-[10px]'>
                     <div className='grid grid-cols-12 px-4 py-3'>
                         <div className='col-span-3'>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>Phone</h1>
                             <h1 className='text-gray-400 text-sm font-semibold mt-1'>Email</h1>
+                            <h1 className='text-gray-400 text-sm font-semibold mt-1'>Address</h1>
                         </div>
                         <div className='col-span-9'>
                             {/* <h1 className='text-xl font-semibold text-[#5EEAD3]'>B.Sc. in Computer Science & Engineering</h1>
                             <p className='text-gray-400 text-lg'> ~ East Delta University</p>
                             <p className='text-gray-400 text-lg mb-2'> ~ Chattogram</p> */}
-                            <a href='tel:+8801876704498' className='text-white block'> +880 1876704498</a>
-                            <a href='mailto:dipradas5940@gail.com' className='text-white '> dipradas5940@gmail.com</a>
+                            <a href='tel:+8801876704498' className='text-white block'> 0414456885</a>
+                            <a href='mailto:dipradas5940@gail.com' className='text-white block'> dipradas5940@gmail.com</a>
+                            <a className='text-white'> Unit 06, 26 Union Road, Penrith, NSW, 2750</a>
                         </div>
                     </div>
                 </div>

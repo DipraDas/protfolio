@@ -12,7 +12,7 @@ const LeftSide = ({ selectingSection, section }) => {
             <div className='flex flex-col justify-between h-full'>
                 <div>
                     <h1 className='text-white text-5xl font-bold'>Dipra Das</h1>
-                    <p className='mt-3 text-white text-2xl font-semibold'>Software Engineer at <span className='text-[#5EEAD3]'>Cloudone</span></p>
+                    <p className='mt-3 text-white text-2xl font-semibold'>Software Engineer -  <span className='text-[#5EEAD3]'>Web & App Developer</span></p>
                     <p className='mt-3 text-gray-400 text-lg w-3/5'>I build accessible, inclusive products and digital experiences for the web.</p>
                 </div>
                 <div>
@@ -35,6 +35,10 @@ const LeftSide = ({ selectingSection, section }) => {
                     <div className='flex items-center gap-5 group mb-4' onClick={() => selectingSection('skill')}>
                         <div className={`${section === 'skill' ? 'w-16 bg-white' : 'w-10 bg-gray-500'} h-[1px] bg-gray-500 transition-width duration-200 group-hover:w-16 group-hover:bg-white`} ></div>
                         <div className='text-white text-sm tracking-wider'>SKILL</div>
+                    </div>
+                    <div className='flex items-center gap-5 group mb-4' onClick={() => selectingSection('contact')}>
+                        <div className={`${section === 'contact' ? 'w-16 bg-white' : 'w-10 bg-gray-500'} h-[1px] bg-gray-500 transition-width duration-200 group-hover:w-16 group-hover:bg-white`} ></div>
+                        <div className='text-white text-sm tracking-wider'>CONTACT</div>
                     </div>
                 </div>
                 <div className='flex gap-6'>
